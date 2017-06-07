@@ -2,6 +2,7 @@ var React = require('react');
 var TodoList = require('TodoList');
 var AddTodo = require('AddTodo');
 var TodoSearch = require('TodoSearch');
+var TodoAPI = require('TodoAPI');
 var uuid = require('node-uuid');
 var TodoAPI = require('TodoAPI');
 
@@ -22,8 +23,8 @@ var TodoApp = React.createClass({
         todo.completed = !todo.completed;
       }
 
-      return todo;
-    })
+            return todo;
+        })
 
     this.setState({todos: updatedTodos});
   },
