@@ -29,7 +29,8 @@ module.exports = {
     ],
     alias: {
         applicationStyles: 'app/styles/app.scss',
-        Todo: 'app/components/Todo.jsx' 
+        Todo: 'app/components/Todo.jsx',
+        actions: 'app/actions/actions.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
